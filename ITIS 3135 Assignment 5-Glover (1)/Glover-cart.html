@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+
+<link rel="stylesheet" type="text/css" href="Glover-website.css">
+</head>
+<body>
+<header>
+
+    <h1 class="logo">Cozyworld</h1><br><br><br><br><br><br><br>
+    <!--creates a navigation bar that will be the same display on each page-->
+    <div class="topnav">
+        <a class="active" href="https://webpages.uncc.edu/kglove11/Exercise/myindex.html" >Home</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-shop.html">Shop</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-cart.html">Shopping Cart</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-myaccount.html">My Account</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-about.html">About</a>&emsp;
+        <!--creates a search button to be displayed on each page-->
+        <label>
+            <input type="text" class="searchbtn" placeholder="Search &#128269;" >
+        </label>
+    </div>
+</header>
+<main>
+    <h2>Shopping Cart</h2>
+    <table class="center">
+        <!-- caption for table -->
+        <caption><b>My Bag</b></caption>
+        <thead>
+        <tr>
+
+            <th class="th">Product</th>
+            <th class="th">Description</th>
+            <th class="th">Quantity</th>
+            <th class="th">Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th class="th"><img
+                    alt="Product 1"
+                    src="item1.png" class="img6"/></th>
+            <td class="td"><p> This product is our most popular shirt and comes in the colors of blue, yellow, pink, and green, also made of 100% cotton
+            </p>
+            </td>
+            <td class="td">
+                <div >
+                    <label>
+                        <input type="number" value="1" min="1">
+                    </label>&emsp;
+                    <div class="product-removal"><br>
+                        <button class="remove-product">
+                            Remove
+                        </button>
+                    </div>
+                </div>
+                <td class="td"><p>$21.03</p>
+            </td>
+
+        </tr>
+        <tr>
+            <th class="th"><img
+                    alt="Product 5"
+                    src="item5.png" class="img6"/></th>
+            <td class="td">
+
+                <p>This particular shirt was made early on and it displays majority of the famous rappers of the past two decades, made of 100% cotton
+                </p>
+            </td>
+
+            <td class="td">
+                <div >
+                    <label>
+                        <input type="number" value="1" min="1">
+                    </label>&emsp;
+                    <div class="product-removal"><br>
+                        <button class="remove-product">
+                            Remove
+                        </button>
+                    </div>
+                </div>
+            <td class="td"><p>$15.58</p>
+            </td>
+        </tr>
+        <tr>
+            <th class="th"><img
+                    alt="Product 6"
+                    src="item6.png" class="img6"/></th>
+            <td class="td">
+                <p>This style of shirt was the first design of Cozy World and comes in many different colors. This design is the second most popular product and can be worn with mainly any type of sneakers , also made of 100% cotton</p>
+
+
+            </td>
+            <td class="td"><div >
+                <label>
+                    <input type="number" value="2" min="1">
+                </label>&emsp;
+                <div class="product-removal"><br>
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+            </div>
+            <td class="td"><p>$11.15</p>
+            </td>
+        </tr>
+
+        </tbody>
+
+    </table> <br><br>
+
+    <form action="https://webpages.uncc.edu/kglove11/Exercise/Glover-checkout.html">
+        <input class="checkbtn" type="submit" value="Checkout" /><br><br>
+    </form>
+</main>
+<!--adds footer to be the same under each page-->
+<footer class="footer">
+
+    <p>&#169; 2019 Kameron Glover</p>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

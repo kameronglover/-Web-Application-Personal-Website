@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <link rel="stylesheet" type="text/css" href="Glover-website.css">
+
+    <link href="lightbox.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="lightbox.min.js"></script>
+    <script src="Glover-myaccount.js"></script>
+
+
+</head>
+<body>
+<header>
+
+    <h1 class="logo">Cozyworld</h1><br><br><br><br><br><br><br>
+
+    <div class="topnav">
+        <a class="active" href="https://webpages.uncc.edu/kglove11/Exercise/myindex.html" >Home</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-shop.html">Shop</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-cart.html">Shopping Cart</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-myaccount.html">My Account</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-about.html">About</a>&emsp;
+        <label>
+            <input type="text" class="searchbtn" placeholder="Search &#128269;" >
+        </label>
+    </div>
+</header>
+
+<main>
+    <h2>My Account</h2><br>
+    <h3>Login</h3>
+    <!--Adds accessible form controls-->
+    <div class="container">
+        <label for="usename"><b>Username:</b></label>
+        <input type="text" class = "login" placeholder="Enter Username"  id=usename name="usename" aria-label="Enter Username" required><br><br>
+
+        <label for="pass"><b>Password:</b></label>
+        <input type="password" class = "login" id = "pass" placeholder="Enter Password" aria-label="Enter Password" name="pass" required>
+
+        <button type="submit" class="subbtn">Login</button>
+    </div>
+    <hr>
+    <h3>New Customers</h3>
+    <p>Creating an account is easy. Just fill out the form below and enjoy the benefits of being a registered customer.</p>
+    &emsp;&emsp;<label for="email"><b>Email:</b></label>
+    <input type="text"  class = "login" id="email" placeholder="Enter Email" aria-label="Enter Email" name="email" required><br><br>
+
+    &emsp;<label for="pass"><b>Password:</b></label>
+    <label for="password"></label><input type="password" class = "login" id = "password" aria-label="Enter Password" placeholder="Enter Password" name="pass" required><br><br>
+
+    <label for="pass-repeat"><b>Repeat Password:</b></label>
+    <input type="password" class = "login" id ="pass-repeat" placeholder="Repeat Password" aria-label="Repeat Password" name="psw-repeat" required>
+    <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="createbtn">Create A New Account!</button>
+    </div>
+    <hr>
+    <!--id for the lightbox function-->
+    <h3>More Clothing Options</h3>
+    <p>You may also like....</p>
+    <div id="new_item"></div>
+
+    <hr>
+    <br>
+    <h3>My Bag</h3>
+
+    <p>You now have these items in your bag for purchase....</p>
+    <hr>
+    <h3>Order Summary</h3>
+    <p>Ready for checkout?</p>
+    <!--links the button to the checkout page-->
+    <form action="https://webpages.uncc.edu/kglove11/Exercise/Glover-checkout.html">
+        <input class="checkbtn" type="submit" value="Checkout" /><br><br>
+    </form>
+
+</main>
+<footer class="footer">
+
+    <p>&#169; 2019 Kameron Glover</p>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

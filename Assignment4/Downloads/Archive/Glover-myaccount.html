@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <link rel="stylesheet" type="text/css" href="Glover-website.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="Glover-myaccount.js"></script>
+
+
+</head>
+<header>
+
+    <h1 class="logo">Cozyworld</h1><br><br><br><br><br><br><br>
+
+    <div class="topnav">
+        <a class="active" href="https://webpages.uncc.edu/kglove11/Exercise/myindex.html" >Home</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-shop.html">Shop</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-cart.html">Shopping Cart</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-myaccount.html">My Account</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-about.html">About</a>&emsp;
+        <label>
+            <input type="text" class="searchbtn" placeholder="Search &#128269;" >
+        </label>
+    </div>
+</header>
+<body>
+<main>
+
+    <h3>Login</h3>
+    <!--Adds accessible form controls-->
+    <div class="container">
+        <label for="usename"><b>Username:</b></label>
+        <input type="text" class = "login" placeholder="Enter Username"  id=usename name="usename" required><br><br>
+
+        <label for="pass"><b>Password:</b></label>
+        <input type="password" class = "login" id = "pass" placeholder="Enter Password" name="pass" required>
+
+        <button type="submit" class="subbtn">Login</button>
+    </div>
+    <hr>
+    <h3>Images</h3>
+    <p>You may also like....</p>
+    <fieldset class = "fieldset1">
+
+
+        <ul id="image_list">
+            <li> <a href="item4.png"> <img
+                    alt="Product 4"
+                    src="item4.png" class="img10"/></a> </li>
+
+            <li><a href="item6.png"> <img
+                    alt="Product 6"
+                    src="item6.png" class="img10"
+            /></a> </li>
+
+            <li><a href="item2.png">  <img
+                    alt="Product 3"
+                    src="item2.png" class="img10"/></a></li>
+            <li><a href="item1.png"><img
+                    alt="Product 1"
+                    src="item1.png" class="img10"
+
+            /></a></li>
+
+           <li><a href="item7.png"> <img
+                    alt="Product 7"
+                    src="item7.png" class="img10"
+           /></a>
+           </li>
+            <li><a href="item8.png"> <img
+                    alt="Product 8"
+                    src="item8.png" class="img10"/></a></li>
+        </ul>
+
+
+
+
+    </fieldset>
+    <hr>
+    <br>
+    <h3>My Bag</h3>
+
+
+
+
+    <p>You now have these items in your bag for purchase....</p>
+    <hr>
+    <h3>Order Summary</h3>
+    <p>Ready for checkout?</p>
+    <form action="https://webpages.uncc.edu/kglove11/Exercise/Glover-checkout.html">
+        <input class="checkbtn" type="submit" value="Checkout" /><br><br>
+    </form>
+
+    <hr>
+    <h3>New Customers</h3>
+    <p>Creating an account is easy. Just fill out the form below and enjoy the benefits of being a registered customer.</p>
+    &emsp;&emsp;<label for="email"><b>Email:</b></label>
+    <input type="text"  class = "login" id="email" placeholder="Enter Email" name="email" required><br><br>
+
+    &emsp;<label for="pass"><b>Password:</b></label>
+    <label for="password"></label><input type="password" class = "login" id = "password" placeholder="Enter Password" name="pass" required><br><br>
+
+    <label for="pass-repeat"><b>Repeat Password:</b></label>
+    <input type="password" class = "login" id ="pass-repeat" placeholder="Repeat Password" name="psw-repeat" required>
+    <button type="button" class="createbtn">Create A New Account!</button>
+</main>
+<footer class="footer">
+
+    <p>&#169; 2019 Kameron Glover</p>
+</footer>
+</body>
+</html>

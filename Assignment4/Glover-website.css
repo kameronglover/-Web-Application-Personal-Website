@@ -1,0 +1,359 @@
+/*Creates a top navigation bar */
+.topnav{
+    text-align: center;
+    background-color: greenyellow;
+    overflow: hidden;
+    font-size: xx-large;
+
+}
+/*Makes the top of the website name stand out */
+.logo{
+    text-align: left;
+    font-size: 90px;
+    color: blue;
+    font-style: oblique;
+
+}
+h2{
+    text-align: center;
+    font-family: SansSerif;
+    color: lightsalmon;
+    font-weight: bold;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+
+}
+h3{
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+header{
+    background-image: url("cozy-world2.png");
+    background-size: 50% 100%;
+    background-position: top;
+
+
+}
+/*Adds a background color to the sign up form */
+
+fieldset{
+    background-color: #f9ff83;
+
+}
+.fieldset1{
+   background-color: white;
+    margin-right: auto;
+    border-color: black;
+}
+p{
+    text-align: center;
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*Positions the submit and cancel buttons in the sign up form side by side */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+/*Adds color to the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    cursor: pointer;
+}
+.signupbtn {
+    padding: 14px 20px;
+    background-color: #58ff4a;
+    cursor: pointer;
+}
+/*The footer on all of the pages will have the same background color */
+.footer{
+    background-color: lightsalmon;
+
+}
+/*Styling for the add to cart button*/
+.addbtn{
+    padding: 20px 20px;
+    background-color: #ff2521;
+
+    color: white;
+    text-align: center;
+    border: 3px solid green;
+    cursor: pointer;
+    width: 100%;
+}
+.createbtn{
+    background-color: darkblue;
+    padding: 20px 20px;
+    border: 3px solid black;
+    color:white;
+    font-family: Phosphate;
+    cursor: pointer;
+    width: 100%;
+}
+.checkbtn{
+    background-color: orange;
+    padding: 20px 20px;
+    border: 3px solid black;
+    color:white;
+    font-family: Phosphate;
+    cursor: pointer;
+    width: 100%;
+}
+/*Styling for the login button on the my account page*/
+.subbtn {
+    background-color: #4CAF50;
+    font-family: Phosphate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 3px solid black;
+    cursor: pointer;
+    width: 100%;
+}
+/*Styling for the facebook button*/
+.fb {
+    background-color: #3B5998;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.twitter {
+    background-color: #55ACEE;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.insta {
+    background-color: #ed7eff;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}
+
+h4{
+    font-family: Noteworthy;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+}
+.searchbtn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.img2{
+    float: right;
+}
+
+
+.login{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row img {
+    width: 60%;
+}
+.rowimg {
+    width: 600px;
+}
+label {
+    display: block;
+}
+.label1{
+    display: inline-block;
+
+
+
+}
+.addbtn2{
+    padding: 35px 35px;
+    background-color: #ff2521;
+font-family: Phosphate;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+    cursor: pointer;
+ width: 100%;
+    justify-content: center;
+}
+.img3{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 70%;
+    height: 60%;
+
+}
+/*specific styling for the images*/
+.img4{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 70%;
+    height: 30%;
+
+}
+.img5{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 70%;
+    height: 70%;
+
+}
+.img6{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 70%;
+    height: 50%;
+
+}
+.img7{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 73%;
+    height: 50%;
+
+}
+.img8{
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 70%;
+    height: 35%;
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+}
+/* table format on the cart page*/
+td,
+th {
+    padding: 8px;
+    background-color:white;
+    text-align: left;
+    color: black;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.p{
+    text-align: center;
+
+}
+img{
+    max-width:60%;
+    max-height:60%;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+/*styling for the remove button from carts */
+.remove-product {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-family: "Chalkboard SE";
+    font-size: 12px;
+    border-radius: 3px;
+}
+/* table format on the cart page*/
+
+.td,
+.th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color:white;
+    text-align: left;
+    color: black;
+}
+
+#drop { width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+    background-color: green;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img10{
+    width:10%;
+    height:10%;
+}
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cozy World USA</title>
+
+    <link rel="stylesheet" type="text/css" href="Glover-website.css">
+    <link href="jquery.bxslider.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="js12/jquery.bxslider.min.js"></script>
+    <script src="Glover-myindex.js"></script>
+
+
+
+</head>
+<body>
+<header>
+
+
+    <h1 class="logo">Cozyworld</h1><br><br><br><br><br><br><br>
+    <!--creates a navigation bar that will be the same display on each page-->
+    <div class="topnav">
+        <a class="active" href="https://webpages.uncc.edu/kglove11/Exercise/myindex.html" >Home</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-shop.html">Shop</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-cart.html">Shopping Cart</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-myaccount.html">My Account</a>&emsp;
+        <a href="https://webpages.uncc.edu/kglove11/Exercise/Glover-about.html">About</a>&emsp;
+        <!--creates a search button to be dislayed on each page-->
+        <label>
+            <input type="text" class="searchbtn" placeholder="Search &#128269;" >
+        </label>
+    </div>
+</header>
+<main>
+
+<!-- adds a sub heading at the top of the home page for popular items-->
+<h2>Popular Clothes</h2>
+    <p><em><b>Welcome to our site, we hope you feel free to shop and buy at your own leisure</b></em></p> <br><br>
+
+        <ul id="slider">
+        <li><img src="item1.png"  alt="Product 1" title="Tie-Dye Shirt"></li>
+        <li><img src="item2.png"  alt="Product 2" title="Skull Shirt"></li>
+        <li><img src="item3.png"  alt="Product 3" title="Pink Original Shirt"></li>
+        <li><img src="item5.png"  alt="Product 4" title="Rappers Shirt"></li>
+
+    </ul>
+
+    <fieldset class = "fieldset1">
+        <legend>Select a Product:  </legend>
+        <label class="label1" for="checkbox-1"><em>Tie-Dye Shirt</em> <b>19.99</b></label>
+        <input type="checkbox" name="checkbox-1" id="checkbox-1"> &emsp; &emsp;
+        <label class="label1" for="checkbox-2"><em>Skull Shirt </em> <b>14.99</b> </label>
+        <input type="checkbox" name="checkbox-2" id="checkbox-2">&emsp; &emsp;
+        <label class="label1" for="checkbox-3"><em>Pink Original Shirt</em> <b>9.99</b></label>
+        <input type="checkbox" name="checkbox-3" id="checkbox-3">&emsp; &emsp;
+        <label class="label1" for="checkbox-4"><em>Rapper Shirt </em> <b>12.99</b></label>
+        <input type="checkbox" name="checkbox-4" id="checkbox-4">
+    </fieldset>
+
+    <!--
+        <table class="center">
+
+
+            <tbody>
+            <tr>
+
+                <td><img
+                        alt="Product 1"
+                        src="item1.png" class="img3"
+
+                />
+
+                </td>
+                <td>
+                    <img
+                            alt="Product 2"
+                            src="item2.png" class="img5"/>
+                </td>
+
+            </tr>
+            <tr>
+
+                <td>
+                    <p>Tie-Dye Shirt<br> <label class="p">
+                        <input type="checkbox" name="clothing" value="item1">
+                    </label><b>9.99</b></p>
+
+                </td>
+
+                <td>
+                    <p>Skull Shirt<br> <label class="p">
+                        <input type="checkbox" name="clothing" value="item2">
+                    </label><b>14.99</b></p>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    <img
+                            alt="Product 3"
+                            src="item3.png" class="img3"/>
+
+                </td>
+                <td>
+                    <img
+                            alt="Product 4"
+                            src="item5.png" class="img6"/>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+
+                    <p>Pink Original Shirt<br> <label class="p">
+                        <input type="checkbox" name="clothing" value="item3">
+                    </label><b>9.99</b></p>
+                </td>
+                <td> <p>Rappers Shirt<br> <label class="p">
+                    <input type="checkbox" name="clothing" value="item4">
+                </label><b>12.99</b></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    -->
+
+
+
+    <form action="https://webpages.uncc.edu/kglove11/Exercise/Glover-cart.html">
+        <input class="addbtn" type="submit" value="Add to Cart!" /><br><br>
+    </form>
+
+    <fieldset>
+        <h3>Sign Up</h3>
+        <p>Please fill in this form to create an account, and recieve exclusive deals & sales.</p>
+        <!--Adds accessible form controls-->
+        <label for="first">First name:</label>
+        <input type ="text" class = "login" id="first" name="first" size="35"  placeholder="Text box" required><br><br>
+        <label for="last">Last name:</label>
+        <input type="text"  class = "login" id="last" name="last" placeholder="Text box" required>
+
+         <label for="email">Email:</label>
+        <input type="text" class = "login" id="email" placeholder="Enter Email" name="email" required>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" class = "login" name="address" placeholder="Text area with 7 rows and 50 cols"  required></textarea>
+        <br><br><br><br>
+
+
+        <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+    </fieldset>
+</main>
+<footer class="footer">
+
+    <p>&#169; 2019 Kameron Glover </p>
+
+        <br/>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+
+</footer>
+</body>
+</html>
